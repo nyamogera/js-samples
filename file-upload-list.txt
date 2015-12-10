@@ -1,6 +1,19 @@
 テンプレ
-- ほにゃらら.(js|png|css…)
-URL : 
-js.doitのURL : 
+- CopyShader.js
+URL : http://jsrun.it/assets/m/e/D/o/meDoh
+js.doitのURL : http://jsdo.it/nyamogera/KGht/
 
-- ほにゃらら.png
+- EffectComposer.js
+URL : http://jsrun.it/assets/u/9/1/c/u91cn
+
+- MaskPass.js
+URL : http://jsrun.it/assets/k/6/S/d/k6Sdw
+
+- RenderPass.js
+URL : http://jsrun.it/assets/C/N/p/F/CNpFC
+
+- ShaderPass.js
+http://jsrun.it/assets/I/j/q/W/IjqWc
+
+- Three.js
+http://jsrun.it/assets/y/P/F/E/yPFEJ
