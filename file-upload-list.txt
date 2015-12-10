@@ -1,0 +1,6 @@
+テンプレ
+- ほにゃらら.(js|png|css…)
+URL : 
+js.doitのURL : 
+
+- ほにゃらら.png
