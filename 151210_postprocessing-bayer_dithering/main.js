@@ -5,7 +5,7 @@ window.onload = function () {
 
 
 var camera, scene, renderer, composer;
-var object, light, shader,uniforms;
+var object, light, shader, pass;
 
 function initShader() {
         
@@ -146,7 +146,7 @@ function init() {
   composer = new THREE.EffectComposer(renderer);
   composer.addPass(new THREE.RenderPass(scene, camera));
 
-  var pass = new THREE.ShaderPass(shader);
+  pass = new THREE.ShaderPass(shader);
   composer.addPass(pass);
   pass.renderToScreen = true;
   pass.enabled = true;
@@ -172,7 +172,7 @@ function animate() {
 
   composer.render();
  
-  uniforms["vScreenSize"].value.x = window.innerWidth;
-  uniforms["vScreenSize"].value.y = window.innerHeight;
+  pass.uniforms["vScreenSize"].value.x = window.innerWidth;
+  pass.uniforms["vScreenSize"].value.y = window.innerHeight;
   //renderer.render(scene, camera);
 }
