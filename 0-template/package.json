@@ -7,6 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "browser-sync start --server --files='**/*.*'"
   },
-  "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
+  "author": "nyamogera <nyamogera@gmail.com>",
   "license": "MIT"
 }
