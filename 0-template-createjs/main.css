@@ -1,0 +1,9 @@
+h1 {
+  font-size: 20px;
+  color: blue;
+}
+
+canvas{
+    width:465;
+    height:465;
+}
